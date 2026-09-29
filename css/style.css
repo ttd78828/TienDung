@@ -25,6 +25,26 @@ nav a[aria-current="page"] {
   text-decoration: underline;
   color: #89cfef;
 }
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background-color: #005f69;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: top 0.3s ease;
+  z-index: 1000;
+}
+.skip-link:focus {
+  top: 10px;
+  outline: 3px solid #89cfef;
+}
+a:focus {
+  outline: 3px solid #89cfef;
+  outline-offset:4px;
+}
 h1 {
   font-size: 2.7rem;
   margin-bottom: 1.2rem;
