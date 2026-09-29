@@ -1,68 +1,68 @@
 body {
-  margin: 5 px;
+  margin: 5px;
   background-color: #f8f9fa;
   color: #a2d4f1;
-  font-family: Times New Roman, serif;
-  font-size: 36 px;
+  font-family: "Times New Roman", serif;
+  font-size: 36px;
   line-height: 1.8;
 }
 header {
   background-color: #005f69;
   color: #ffffff;
-  padding: 20 px;
+  padding: 20px;
 }
 header h1,
 header a {
   color: #ffffff;
 }
 h1 {
-  font-size: 2.7 rem;
-  margin-bottom: 1.2 rem;
+  font-size: 2.7rem;
+  margin-bottom: 1.2rem;
 }
 h2 {
-  font-size: 2.2 rem;
-  margin-bottom: 1 rem;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
 }
 h3 {
-  font-size: 1.8 rem;
-  margin-bottom: 0.75 rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
 }
 p {
-  margin-bottom: 1.6 rem;
+  margin-bottom: 1.6rem;
 }
 main {
-  max-width: 1000 px;
-  margin: 5 px auto;
-  padding: 40 px 20 px;
+  max-width: 1000px;
+  margin: 5px auto;
+  padding: 40px 20px;
 }
 footer {
   text-align: center;
-  font-size: 1 rem;
+  font-size: 1rem;
   color: #000000;
-  padding: 20 px;
+  padding: 20px;
 }
 .cta {
   display: inline-block;
   background-color: #89cfef;
   color: #ffffff;
-  font-size: 1.2 rem;
-  padding: 20 px 40 px;
-  border-radius: 5 px;
-  margin-top: 30 px;
+  font-size: 1.2rem;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-top: 30px;
 }
 .swatch {
   display: inline-block;
-  width: 150 px;
-  height: 100 px;
-  margin-bottom: 12 px;
-  border-radius: 6 px;
+  width: 150px;
+  height: 100px;
+  margin-bottom: 12px;
+  border-radius: 6px;
   vertical-align: top;
 }
 .swatch-primary { background-color: #0f4c64; }
 .swatch-neutral { background-color: #262220; }
 .swatch-accent { background-color: #003151; }
-.swatch-cta: { background-color: #89cfef; }
-.type-sample-h1 { font-size: 2.7 rem; }
-.type-sample-h2 { font-size: 2.2 rem; }
-.type-sample-h3 { font-size: 1.8 rem; }
-.type-sample-body { font-size: 2.25 rem; }
+.swatch-cta { background-color: #89cfef; }
+.type-sample-h1 { font-size: 2.7rem; }
+.type-sample-h2 { font-size: 2.2rem; }
+.type-sample-h3 { font-size: 1.8rem; }
+.type-sample-body { font-size: 2.25rem; }
