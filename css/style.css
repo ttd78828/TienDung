@@ -128,3 +128,54 @@ ul {
 li {
   margin-bottom: 10px;
 }
+form {
+  background-color: #e8f4fb;
+  padding: 25-x;
+  border-radius: 8px;
+  max-width: 700px;
+  margin-top: 20px;
+}
+form label,
+form input,
+form texterea,
+form button {
+  display: block;
+}
+form table {
+  margin-top: 15px;
+  font-weigth: bold;
+  color: #003151;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #005f69;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+form input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 8px;
+}
+button {
+  background-color: #005f69;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #003151;
+}
+button:focus {
+  outline: 3px solid #89cfef;
+  outline-offset: 4px;
+}
