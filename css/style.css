@@ -137,7 +137,7 @@ form {
 }
 form label,
 form input,
-form texterea,
+form textarea,
 form button {
   display: block;
 }
