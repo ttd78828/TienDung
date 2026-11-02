@@ -19,9 +19,15 @@
   </header>
   <main id="main-content">
     <h2>Contact S Nails & Spa</h2>
-    <p>S Nails & Spa is located at 13111 Kingston Ave in Chester, Virginia. We welcome both walk‑ins and appointments, and our team is always happy to help clients plan their visit or choose the right service.</p>
+    <p>We welcome both walk‑ins and appointments, and our team is always happy to help clients plan their visit or choose the right service.</p>
     <p>For questions about availability, pricing, or specific treatments, you can reach us by phone during business hours or visit the salon directly. Our goal is to make every visit smooth, relaxing, and easy to plan.</p>
     <p>Hours of operation, directions, and additional details will be added soon as we continue building out our website. Thank you for supporting our salon — we look forward to seeing you soon.</p>
+    <p>Address: 13108 Kingston Ave, Chester VA</p>
+    <p>Phone: (804)-111-1991</p>
+    <h3>Find My Location</h3>
+    <p>Click the button below to see my current location.</p>
+    <button onclick="getLocation()">Show My Location</button>
+    <p id="location-message"></p>
   <form action="https://formspree.io/f/booking" method="post">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" required>
@@ -50,5 +56,20 @@
   <footer>
     <p>&copy; 2026 S Nails & Spa</p>
   </footer>
+  <script>
+    function getLocation() {
+      navigator.geolocation.getCurrentPosition(showPosition, showError);
+    }
+    function showPosition(position) {
+      var lat = position.coords.latitude.toFixed(1);
+      var lon = position.coords.longitude.toFixed(1);
+      document.getElementById("location-message").textContent =
+        "You're near " + lat + ", " + lon + ". S Nails & Spa looks forward to welcoming you for your next appointment.";
+    }
+    function showError(error) {
+      document.getElementById("location-message").textContent =
+        "We couldn't get your location, but that's okay. You can still visit S Nails & Spa using the address listed above.";
+    }
+  </script>
 </body>
 </html>
