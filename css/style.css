@@ -65,6 +65,9 @@ main {
   margin: 5px auto;
   padding: 40px 20px;
 }
+section {
+  margin-bottom: 3rem;
+}
 footer {
   text-align: center;
   font-size: 1rem;
